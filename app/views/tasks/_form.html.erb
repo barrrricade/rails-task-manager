@@ -1,0 +1,7 @@
+<%= form_for @task do |t| %>
+  <p>Enter Title:</p> <%= t.text_field :title %>
+  <br>
+  <p>Enter details:</p><%= t.text_field :details %>
+  <br>
+  <%= t.submit %>
+<% end %>
